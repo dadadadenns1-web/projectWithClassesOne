@@ -16,16 +16,16 @@ public class Main {
         Author mumuAuthor = new Author("Тургенев","Иван");
         Book mumu = new Book("Муму",mumuAuthor,1854);
 
-        //Используем геттеры
+        //Проверка
         System.out.println("Использование геттеров\n");
 
         readBook(lionAndDog);
         readBook(mumu);
 
-        //Используем сеттеры
+        //Используем сеттеры, меняем год публикации Муму
         mumu.setPublicationDate(1900);
 
-        //Проверка
+        //Проверка после изменения года публикации Муму
         System.out.println("Проверка\n");
 
         readBook(lionAndDog);
