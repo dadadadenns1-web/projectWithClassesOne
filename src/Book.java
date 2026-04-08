@@ -1,8 +1,8 @@
 public class Book {
 
     //Поля
-    String name;
-    Author author;
+    private String name;
+    private Author author;
     int publicationDate;
 
     //Конструктор
