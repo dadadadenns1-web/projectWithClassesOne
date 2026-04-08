@@ -3,7 +3,7 @@ public class Book {
     //Поля
     private String name;
     private Author author;
-    int publicationDate;
+    private int publicationDate;
 
     //Конструктор
     public Book(String name, Author author, int publicationDate) {
