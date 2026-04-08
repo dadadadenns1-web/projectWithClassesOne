@@ -1,7 +1,7 @@
 
 public class Main {
 
-    public static void readBook(Book book) {
+    public static void readBookInfo(Book book) {
         System.out.println("Имя книги = " + book.getName());
         System.out.println("Имя писателя книги = " + book.getAuthor().getFirstName());
         System.out.println("Фамилия писателя книги = " + book.getAuthor().getLastName());
@@ -20,8 +20,8 @@ public class Main {
         //Проверка
         System.out.println("Использование геттеров\n");
 
-        readBook(lionAndDog);
-        readBook(mumu);
+        readBookInfo(lionAndDog);
+        readBookInfo(mumu);
 
         //Используем сеттеры, меняем год публикации Муму
         mumu.setPublicationDate(1900);
@@ -29,8 +29,8 @@ public class Main {
         //Проверка после изменения года публикации Муму
         System.out.println("Проверка\n");
 
-        readBook(lionAndDog);
-        readBook(mumu);
+        readBookInfo(lionAndDog);
+        readBookInfo(mumu);
 
     }
 }
