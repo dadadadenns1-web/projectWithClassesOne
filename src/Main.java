@@ -3,8 +3,9 @@ public class Main {
 
     public static void readBookInfo(Book book) {
         System.out.println("Имя книги = " + book.getName());
-        System.out.println("Имя писателя книги = " + book.getAuthor().getFirstName());
-        System.out.println("Фамилия писателя книги = " + book.getAuthor().getLastName());
+        Author author = book.getAuthor();
+        System.out.println("Имя писателя книги = " + author.getFirstName());
+        System.out.println("Фамилия писателя книги = " + author.getLastName());
         System.out.println("Год публикации = " + book.getPublicationDate());
         System.out.println();
     }
