@@ -12,9 +12,9 @@ public class Main {
     public static void main(String[] args) {
 
         //Используем конструкторы
-        Author lionAndDogAuthor = new Author("Николаевич", "Лев");
+        Author lionAndDogAuthor = new Author("Лев", "Николаевич");
         Book lionAndDog = new Book("Лев и собачка", lionAndDogAuthor, 1975);
-        Author mumuAuthor = new Author("Тургенев", "Иван");
+        Author mumuAuthor = new Author("Иван", "Тургенев");
         Book mumu = new Book("Муму", mumuAuthor, 1854);
 
         //Проверка

@@ -1,13 +1,13 @@
 public class Author {
 
     //Поля
-    private String firstName;
-    private String lastName;
+    private final String firstName;
+    private final String lastName;
 
     //Конструктор
-    public Author(String lastName, String firstName) {
-        this.lastName = lastName;
+    public Author(String firstName, String lastName) {
         this.firstName = firstName;
+        this.lastName = lastName;
     }
 
     //Геттеры
